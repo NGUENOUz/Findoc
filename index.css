@@ -422,10 +422,10 @@ footer{
 
   @media (max-width: 380px) {
 
-.about{
-  height: 400px;
-  background: #000;
-    }
+     .bloc .gauche img{
+        display: none;
+
+     }
     
     .bloc_fin{
         display: flex;
