@@ -108,11 +108,9 @@ ul li a{
 
 .about{
     width: 100%;
-    width: 100%;
-    margin: 0;
     height: 125vh;
     padding-bottom: 15%;
-    background: #e2eeed;
+    background: #419992;
 }
  .about .container h2{
     font-size: 55px;
@@ -423,7 +421,7 @@ footer{
   @media (max-width:400px){
 
     .hero,.about{
-  height: auto;
+  height:80%;
     }
 
   }
