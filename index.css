@@ -27,7 +27,7 @@ body::-webkit-scrollbar-track{
 }
 
 header {
-    width: 100%;
+    width: 100vw;
     margin: 0;
     background-color:var(--color1);
     color: var(--fond1);
@@ -109,7 +109,7 @@ ul li a{
 .about{
     width: 100%;
      height: auto;
-    margin: 0;
+    margin-right: 0;
     height: 125vh;
     padding-bottom: 15%;
     background: #e2eeed;
@@ -424,6 +424,13 @@ footer{
 
     .hero,.about{
   height: auto;
+    }
+    
+    .bloc_fin{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin: 3%;
     }
 
   }
