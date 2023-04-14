@@ -27,6 +27,8 @@ body::-webkit-scrollbar-track{
 }
 
 header {
+    width: 100%;
+    margin: 0;
     background-color:var(--color1);
     color: var(--fond1);
     padding: 20px;
@@ -106,6 +108,8 @@ ul li a{
 
 .about{
     width: 100%;
+    width: 100%;
+    margin: 0;
     height: 125vh;
     padding-bottom: 15%;
     background: #e2eeed;
