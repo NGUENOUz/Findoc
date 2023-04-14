@@ -430,7 +430,13 @@ footer{
         display: flex;
         flex-direction: column;
         text-align: center;
+        justify-content: right;
         margin: 3%;
+    }
+    .telechargement{
+        padding-bottom: 0;
+        height: auto;
+        width: 100%;
     }
 
   }
