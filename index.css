@@ -10,6 +10,8 @@
 }
 
 body {
+    width: 100%;
+    height: auto;
     font-family: 'corbel', sans-serif;
     background: #f7f7f8;
     color: rgb(22, 83, 250);
@@ -415,7 +417,11 @@ footer{
   }
 
   @media (max-width:400px){
-    
+
+    .hero,.about{
+  height: auto;
+    }
+
   }
 
 
