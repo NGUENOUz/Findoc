@@ -420,10 +420,11 @@ footer{
     }
   }
 
-  @media (max-width:400px){
+  @media (max-width: 380px) {
 
-    .hero,.about{
-  height: auto;
+.about{
+  height: 400px;
+  background: #000;
     }
     
     .bloc_fin{
